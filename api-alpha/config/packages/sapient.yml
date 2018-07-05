@@ -2,11 +2,15 @@ sapient:
     sign:
         public: 'G3zo5Zub2o-eyp-g3GYb9JXEzdtIqmFdDOvU5PV6hBk='
         private: 'giP81DlS_R3JL4-UnSVbn2I5lm9abv8vA7aLuEdOUB4bfOjlm5vaj57Kn6DcZhv0lcTN20iqYV0M69Tk9XqEGQ=='
-        name: 'signer-name'
+        host: 'api-alpha'
     seal:
         public: 'u3d7WWTtq3PGn2Qih7ZolgdnMOWTPW7pIHeklFqIdVQ='
         private: '23c5HCNmNq_lloWA7ZmMPptBqdPcZHN2yMzuk30Hf_0='
     sealing_public_keys:
-        - name: 'requester-name'
+        - host: 'api-beta'
           key: 'M2SMMPHg9NOXoX3NgzlWY8iTheyu8qSovnTZpAlIGB0='
-    verifying_public_keys: ~
+    verifying_public_keys:
+        - host: 'api-beta'
+          key: 'SKvHYGfAqTqh-4rbxZJiyXkLvIdkjzzknb31vGPrm1M='
+    verify_request: true
+    unseal_request: true

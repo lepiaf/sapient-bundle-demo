@@ -7,6 +7,4 @@ csa_guzzle:
         default: ~
         api:
             config:
-                base_uri: 'http://localhost:8000'
-                headers:
-                  'Sapient-Requester': 'requester-name'
+                base_uri: 'http://api-alpha:8000'

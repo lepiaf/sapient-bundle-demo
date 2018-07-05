@@ -2,14 +2,19 @@ sapient:
     sign:
         public: 'SKvHYGfAqTqh-4rbxZJiyXkLvIdkjzzknb31vGPrm1M='
         private: '-LTOhDx5PzhRoX3Hb26tAfHo_iv5HtVWYigYiYFlwDdIq8dgZ8CpOqH7itvFkmLJeQu8h2SPPOSdvfW8Y-ubUw=='
-        name: 'signer-name'
+        host: 'api-beta'
     seal:
         public: 'M2SMMPHg9NOXoX3NgzlWY8iTheyu8qSovnTZpAlIGB0='
         private: 'FzyiZAbEuquHUXt-YNF6WOXFB6CVBpyz2ocMMaT0FK8='
     guzzle_middleware:
         unseal: true
         verify: true
-    sealing_public_keys: ~
-    verifying_public_keys:
-        - name: 'signer-name'
+        sign_request: true
+        seal_request: true
+        requester_host: 'api-beta'
+    sealing_public_keys:
+        - host: 'api-alpha'
+          key: 'u3d7WWTtq3PGn2Qih7ZolgdnMOWTPW7pIHeklFqIdVQ='
+    verifying_public_keys: ~
+        - host: 'api-alpha'
           key: 'G3zo5Zub2o-eyp-g3GYb9JXEzdtIqmFdDOvU5PV6hBk='
