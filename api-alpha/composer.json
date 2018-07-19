@@ -4,7 +4,7 @@
     "require": {
         "php": "^7.1.3",
         "ext-iconv": "*",
-        "lepiaf/sapient-bundle": "dev-master",
+        "lepiaf/sapient-bundle": "^0.2.0",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.0",
@@ -56,7 +56,7 @@
     "extra": {
         "symfony": {
             "id": "01CC1JB2WB5DFMCZ8YDSFZ6DRY",
-            "allow-contrib": false
+            "allow-contrib": "true"
         }
     }
 }

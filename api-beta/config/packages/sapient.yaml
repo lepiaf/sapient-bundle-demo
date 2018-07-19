@@ -15,6 +15,6 @@ sapient:
     sealing_public_keys:
         - host: 'api-alpha'
           key: 'u3d7WWTtq3PGn2Qih7ZolgdnMOWTPW7pIHeklFqIdVQ='
-    verifying_public_keys: ~
+    verifying_public_keys:
         - host: 'api-alpha'
           key: 'G3zo5Zub2o-eyp-g3GYb9JXEzdtIqmFdDOvU5PV6hBk='
