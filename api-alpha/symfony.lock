@@ -3,7 +3,13 @@
         "version": "1.4.2"
     },
     "lepiaf/sapient-bundle": {
-        "version": "dev-master"
+        "version": "0.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "0.1",
+            "ref": "311f346565cf2680be5e222ea9d833088fbbf46d"
+        }
     },
     "monolog/monolog": {
         "version": "1.23.0"
@@ -12,13 +18,13 @@
         "version": "v2.2.2"
     },
     "paragonie/random_compat": {
-        "version": "v2.0.12"
+        "version": "v9.99.99"
     },
     "paragonie/sapient": {
-        "version": "v1.0.0"
+        "version": "v1.0.1"
     },
     "paragonie/sodium_compat": {
-        "version": "v1.6.1"
+        "version": "v1.6.3"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -141,6 +147,6 @@
         "version": "v4.0.8"
     },
     "zendframework/zend-diactoros": {
-        "version": "1.7.1"
+        "version": "1.8.1"
     }
 }

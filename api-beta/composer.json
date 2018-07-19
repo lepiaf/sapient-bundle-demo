@@ -6,7 +6,7 @@
         "ext-iconv": "*",
         "csa/guzzle-bundle": "^3.0",
         "guzzlehttp/guzzle": "^6",
-        "lepiaf/sapient-bundle": "dev-master",
+        "lepiaf/sapient-bundle": "^0.2.0",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.0",
@@ -57,7 +57,7 @@
     "extra": {
         "symfony": {
             "id": "01CC1JA6KB97DA57KEWFHBCF7D",
-            "allow-contrib": false
+            "allow-contrib": "true"
         }
     }
 }

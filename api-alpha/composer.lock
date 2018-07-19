@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44566eca279235af4ca02c9727a1c031",
+    "content-hash": "b63e75c11c9d5c46d2d60899df06204e",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -73,16 +73,16 @@
         },
         {
             "name": "lepiaf/sapient-bundle",
-            "version": "dev-master",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lepiaf/sapient-bundle.git",
-                "reference": "213108c213376d81a9351341f4b0286b1ea78157"
+                "reference": "4a8b41752a5378cd32c064fc2145e35272414c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lepiaf/sapient-bundle/zipball/213108c213376d81a9351341f4b0286b1ea78157",
-                "reference": "213108c213376d81a9351341f4b0286b1ea78157",
+                "url": "https://api.github.com/repos/lepiaf/sapient-bundle/zipball/4a8b41752a5378cd32c064fc2145e35272414c55",
+                "reference": "4a8b41752a5378cd32c064fc2145e35272414c55",
                 "shasum": ""
             },
             "require": {
@@ -120,7 +120,7 @@
                 }
             ],
             "description": "Symfony bundle that wrap sapient library",
-            "time": "2018-07-03T06:37:17+00:00"
+            "time": "2018-07-05T12:40:14+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -287,11 +287,6 @@
                 "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
             },
             "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/random.php"
-                ]
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -310,7 +305,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-06-06T17:16:32+00:00"
+            "time": "2018-07-02T15:55:56+00:00"
         },
         {
             "name": "paragonie/sapient",
@@ -2007,16 +2002,16 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "11c9c1835e60eef6f9234377a480fcec096ebd9e"
+                "reference": "63d920d1c9ebc009d860c3666593a66298727dd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/11c9c1835e60eef6f9234377a480fcec096ebd9e",
-                "reference": "11c9c1835e60eef6f9234377a480fcec096ebd9e",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/63d920d1c9ebc009d860c3666593a66298727dd6",
+                "reference": "63d920d1c9ebc009d860c3666593a66298727dd6",
                 "shasum": ""
             },
             "require": {
@@ -2066,7 +2061,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-06-27T18:52:43+00:00"
+            "time": "2018-07-09T21:17:27+00:00"
         }
     ],
     "packages-dev": [
@@ -2239,7 +2234,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "lepiaf/sapient-bundle": 20,
         "symfony/lts": 20
     },
     "prefer-stable": false,
